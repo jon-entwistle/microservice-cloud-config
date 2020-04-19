@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: catalogue-service
+          uri: http://catalogue:9090
+          predicates:
+            - Path=/items/**
