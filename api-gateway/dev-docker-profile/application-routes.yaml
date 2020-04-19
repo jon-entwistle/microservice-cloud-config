@@ -3,6 +3,6 @@ spring:
     gateway:
       routes:
         - id: catalogue-service
-          uri: http://catalogue:9090
+          uri: http://catalogue:8080
           predicates:
             - Path=/items/**
