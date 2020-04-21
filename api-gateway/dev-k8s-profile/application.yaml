@@ -2,9 +2,16 @@ spring:
   profiles:
     include:
       - routes
+  zipkin:
+    baseUrl: http://zipkin-service:9411
+    locator:
+      discovery:
+        enabled: false
+    discovery-client-enabled: false
 
 logging:
   level:
     root: INFO
-    com.javaloom: DEBUG
+    com.javaloom: DEBU
+
 
