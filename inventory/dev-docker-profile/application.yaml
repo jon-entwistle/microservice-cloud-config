@@ -2,3 +2,6 @@ spring:
   profiles:
     include:
       - logging
+      - zipkin
+      - kafka
+      - zookeeper
