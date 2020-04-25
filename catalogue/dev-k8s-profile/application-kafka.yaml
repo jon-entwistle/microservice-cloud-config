@@ -10,6 +10,9 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
+javaloom:
+  kafka:
+    groupId: 
 
 #kafka.topic.thetechcheck=thetechcheck
 #kafka.bootstrap.servers=localhost:9092
