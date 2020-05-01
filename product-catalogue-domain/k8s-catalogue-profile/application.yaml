@@ -1,7 +1,6 @@
 spring:
   profiles:
     include:
-      - logging
       - kafka
       - zipkin
 

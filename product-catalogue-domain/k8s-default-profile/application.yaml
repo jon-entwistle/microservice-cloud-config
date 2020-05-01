@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    include:
+      - kafka
+      - zipkin
+
+inventory:
+  uri: http://inventory-service:8080
+
