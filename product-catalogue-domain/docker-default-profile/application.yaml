@@ -4,3 +4,4 @@ spring:
     include:
       - kafka
       - zookeper
+      - logging
