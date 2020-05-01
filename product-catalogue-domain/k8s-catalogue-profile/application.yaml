@@ -4,5 +4,5 @@ spring:
       - logging
 
 inventory:
-  uri: http://inventory-service:8080
+  uri: inventory
 
