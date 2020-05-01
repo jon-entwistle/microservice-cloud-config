@@ -1,8 +1,6 @@
 spring:
   profiles:
     include:
-      - kafka
-      - zipkin
       - logging
 
 inventory:

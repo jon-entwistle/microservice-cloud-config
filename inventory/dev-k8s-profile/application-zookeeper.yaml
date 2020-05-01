@@ -1,6 +1,0 @@
-zookeeper:
-  host: zookeeper:2181
-
-#zookeeper.host=localhost:2181
-#zookeeper.groupId=thetechcheck
-
