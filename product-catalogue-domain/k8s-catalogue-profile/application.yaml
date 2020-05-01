@@ -4,5 +4,5 @@ spring:
       - logging
 
 inventory:
-  uri: inventory
+  uri: http://inventory
 
