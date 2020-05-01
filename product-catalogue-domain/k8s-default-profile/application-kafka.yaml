@@ -13,5 +13,3 @@ javaloom:
   kafka:
     groupId: mygroup
 
-#kafka.topic.thetechcheck=thetechcheck
-#kafka.bootstrap.servers=localhost:9092
