@@ -4,7 +4,7 @@ spring:
       - logging
       - kafka
       - zipkin
-      - zookepergit statu
+      - zookeper
 
 inventory:
   uri: http://inventory-service:8080
