@@ -2,6 +2,7 @@ spring:
   profiles:
     include:
       - logging
+      - kafka
 
 
 inventory:
