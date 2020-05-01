@@ -3,7 +3,7 @@ spring:
     include:
       - logging
       - kafka
-
+      - zipkin
 
 inventory:
   uri: http://inventory-service:8080
