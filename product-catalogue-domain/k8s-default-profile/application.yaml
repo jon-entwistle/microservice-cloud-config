@@ -1,8 +1,7 @@
 spring:
   profiles:
     include:
-      - kafka
-      - zipkin
+      - logging
 
 inventory:
   uri: http://inventory-service:8080
