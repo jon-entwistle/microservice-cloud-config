@@ -5,3 +5,4 @@ spring:
       - kafka
       - zookeper
       - logging
+      - zipkin

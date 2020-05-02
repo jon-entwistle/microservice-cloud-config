@@ -1,0 +1,6 @@
+spring:
+  gcp:
+    trace:
+      enabled: false
+  zipkin:
+    enabled: false
