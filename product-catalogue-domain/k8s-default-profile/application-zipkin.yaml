@@ -1,4 +1,7 @@
 spring:
+  gcp:
+    trace:
+      enabled: true
   zipkin:
     sender:
       type: kafka
