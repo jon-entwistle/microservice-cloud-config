@@ -2,4 +2,4 @@ logging:
   level:
     root: INFO
     com.javaloom: DEBUG
-    org.springframework.dao: DEBUG
+    org.springframework.data: DEBUG
