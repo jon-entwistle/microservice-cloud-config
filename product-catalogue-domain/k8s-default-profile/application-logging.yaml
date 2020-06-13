@@ -2,6 +2,6 @@ logging:
   level:
     root: INFO
     com.javaloom: DEBUG
-    org.springframework: INFO
+    org.springframework: DEBUG
     org.springframework.cloud.client.loadbalancer: DEBUG
     org.springframework.cloud.kubernetes: DEBUG
