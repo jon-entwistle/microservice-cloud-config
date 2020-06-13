@@ -4,3 +4,4 @@ logging:
     com.javaloom: DEBUG
     org.springframework: INFO
     org.springframework.cloud.client.loadbalancer: DEBUG
+    org.springframework.cloud.kubernetes: DEBUG
