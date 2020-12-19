@@ -2,4 +2,4 @@ logging:
   level:
     root: INFO
     com.javaloom: DEBUG
-    org.apache.kafka: DEBUG
+    org.apache.kafka: INFO
