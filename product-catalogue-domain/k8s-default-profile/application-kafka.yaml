@@ -1,7 +1,7 @@
 spring:
   kafka:
     enabled: true
-    bootstrap-servers: dev.moneta.javaloom.com:9092
+    bootstrap-servers: moneta.dev.javaloom.com:9092
     consumer:
       group-id: mygroup
       auto-offset-reset: earliest
