@@ -6,3 +6,7 @@ spring:
           uri: http://catalogue-service:8080
           predicates:
             - Path=/items/**
+        - id: orders-service
+          uri: http://orders-service:8080
+          predicates:
+            - Path=/cart/**
