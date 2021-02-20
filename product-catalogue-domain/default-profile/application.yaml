@@ -1,1 +1,5 @@
 ### Domain wide properties over all profiles
+spring:
+  profiles:
+    include:
+      - jpa
