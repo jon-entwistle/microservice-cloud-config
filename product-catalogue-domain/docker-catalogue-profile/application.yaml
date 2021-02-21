@@ -1,8 +1,0 @@
-spring:
-  profiles:
-    include:
-      - logging
-
-inventory:
-  uri: http://inventory:8080
-

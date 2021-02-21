@@ -2,16 +2,9 @@ spring:
   profiles:
     include:
       - routes
-  zipkin:
-    baseUrl: http://moneta.dev.javaloom.com:9411
-    locator:
-      discovery:
-        enabled: false
-    discovery-client-enabled: false
-
 logging:
   level:
     root: INFO
-    com.javaloom: DEBU
+    com.javaloom: DEBUG
 
 

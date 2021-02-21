@@ -1,8 +1,12 @@
 spring:
+  zipkin:
+    enabled: true
+    sender: kafka
+    baseUrl: http://moneta.dev.javaloom.com:9411
+    locator:
+      discovery:
+        enabled: false
+    discovery-client-enabled: false
   gcp:
     trace:
       enabled: true
-  zipkin:
-    enabled: true
-    sender:
-      type: kafka

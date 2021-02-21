@@ -1,8 +1,0 @@
-### Docker default properties over all profiles
-spring:
-  profiles:
-    include:
-      - kafka
-      - zookeper
-      - logging
-      - zipkin

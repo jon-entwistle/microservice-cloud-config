@@ -1,6 +1,0 @@
-logging:
-  level:
-    root: INFO
-    com.javaloom: DEBUG
-    org.springframework: INFO
-
