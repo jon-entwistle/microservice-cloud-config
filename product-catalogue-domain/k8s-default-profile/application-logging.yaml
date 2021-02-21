@@ -2,4 +2,3 @@ logging:
   level:
     root: INFO
     com.javaloom: DEBUG
-    org.springframework.cloud: DEBUG
