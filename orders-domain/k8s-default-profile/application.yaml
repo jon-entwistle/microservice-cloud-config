@@ -6,3 +6,4 @@ spring:
       - zookeper
       - logging
       - zipkin
+      - spring-cloud

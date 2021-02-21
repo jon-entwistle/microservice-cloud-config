@@ -3,6 +3,8 @@ spring:
     trace:
       enabled: false
   zipkin:
-    enabled: false
+    enabled: true
+    sender:
+      type: kafka
 
 
