@@ -1,5 +1,6 @@
 logging:
   level:
-    root: DEBUG
+    root: INFO
+    org.springframework: DEBUG
     com.javaloom: DEBUG
     org.apache.kafka: INFO
