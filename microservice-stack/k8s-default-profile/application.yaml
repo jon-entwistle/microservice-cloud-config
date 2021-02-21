@@ -1,0 +1,12 @@
+### Domain wide properties over all profiles
+spring:
+  profiles:
+    include:
+      - kafka
+      - kubernetes
+      - management
+      - zipkin
+      - zookeeper
+      - logging
+inventory:
+  uri: http://inventory-service:8080

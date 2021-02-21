@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    include:
+      - routes
+logging:
+  level:
+    root: INFO
+    com.javaloom: DEBUG
+
+

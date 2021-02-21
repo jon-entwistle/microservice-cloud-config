@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: catalogue-service
+          uri: http://catalogue-service:8080
+          predicates:
+            - Path=/api/catalogue/v1/**
+        - id: orders-service
+          uri: http://orders-service:8080
+          predicates:
+            - Path=/cart/**

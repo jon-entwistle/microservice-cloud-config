@@ -1,0 +1,3 @@
+zookeeper:
+  host: moneta.dev.javaloom.com:2181
+
