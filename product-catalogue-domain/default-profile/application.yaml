@@ -1,8 +1,0 @@
-### Domain wide properties over all profiles
-spring:
-  profiles:
-    include:
-      - management
-logging:
-  level:
-    root: INFO

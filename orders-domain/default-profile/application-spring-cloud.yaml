@@ -1,9 +1,0 @@
-spring:
-  cloud:
-    bus:
-      enabled: true
-    stream:
-      kafka:
-        binder:
-          zkNodes: moneta.dev.javaloom.com:2181
-          brokers:  moneta.dev.javaloom.com:9092
