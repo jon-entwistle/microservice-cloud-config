@@ -9,7 +9,7 @@ spring:
         - id: catalogue-docs
           uri: http://catalogue-service:8080
           predicates:
-            - Path=/doc/catalogue
+            - Path=/doc/catalogue/**
           filters:
             - RewritePath=/doc/catalogue/<path>, /swagger-ui/$\{path}
         - id: orders-service
