@@ -1,4 +1,5 @@
 springdoc:
+  server-url: https://moneta.dev.javaloom.com
   version: 1.5.2
   swagger-ui:
     url: https://moneta.dev.javaloom.com
