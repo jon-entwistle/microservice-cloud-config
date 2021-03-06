@@ -6,7 +6,13 @@ spring:
           uri: http://catalogue-service:8080
           predicates:
             - Path=/api/catalogue/v1/**
+        - id: catalogue-docs
+          uri: http://catalogue-service:8080
+          predicates:
+            - Path=/v3/api-docs/**
+          filters:
+            - RewritePath=/v3/api-docs/(?<path>.*), /$\{path}/v3/api-docs
         - id: orders-service
           uri: http://orders-service:8080
           predicates:
-            - Path=/cart/**
+            - Path=/api/orders/v1/**
