@@ -7,6 +7,7 @@ spring:
           predicates:
             - Path=/api/catalogue/v1/**
         - id: catalogue-service
+          uri: http://catalogue-service:8080
           predicates:
             - Path=/catalogue/**
           filters:
