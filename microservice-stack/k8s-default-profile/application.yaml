@@ -1,4 +1,6 @@
 ### Domain wide properties over all profiles
+server:
+  use-forward-headers: true
 spring:
   profiles:
     include:
