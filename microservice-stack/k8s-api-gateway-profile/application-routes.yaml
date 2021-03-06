@@ -2,10 +2,15 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: catalogue-service
+        - id: catalogue-servicesss
           uri: http://catalogue-service:8080
           predicates:
             - Path=/api/catalogue/v1/**
+        - id: catalogue-service
+          predicates:
+            - Path=/catalogue/**
+          filters:
+            - RewritePath=/catalogue/(?<path>.*), /$\{path}
         - id: catalogue-docs
           uri: http://catalogue-service:8080
           predicates:
