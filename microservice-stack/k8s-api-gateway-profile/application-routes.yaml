@@ -11,6 +11,7 @@ spring:
           predicates:
             - Path=/doc/catalogue/**
           filters:
+            - RewritePath=/doc/catalogue, /swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
             - RewritePath=/doc/catalogue(?<segment>.*), /swagger-ui/$\{segment}
         - id: orders-service
           uri: http://orders-service:8080
