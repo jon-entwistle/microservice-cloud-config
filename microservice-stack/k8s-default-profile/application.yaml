@@ -8,5 +8,6 @@ spring:
       - zipkin
       - zookeeper
       - logging
+      - springdoc
 inventory:
   uri: http://inventory-service:8080
