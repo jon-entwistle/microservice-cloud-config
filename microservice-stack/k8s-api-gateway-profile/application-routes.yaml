@@ -21,7 +21,7 @@ spring:
           predicates:
             - Path=/inventory/**
           filters:
-            - RewritePath=/inventoy/(?<path>.*), /$\{path}
+            - RewritePath=/inventory/(?<path>.*), /$\{path}
         - id: orders-service-api
           uri: http://orders-service:8080
           predicates:
