@@ -2,7 +2,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: catalogue-servicesss
+        - id: catalogue-service-api
           uri: http://catalogue-service:8080
           predicates:
             - Path=/api/catalogue/v1/**
@@ -12,17 +12,36 @@ spring:
             - Path=/catalogue/**
           filters:
             - RewritePath=/catalogue/(?<path>.*), /$\{path}
-        - id: catalogue-docs
-          uri: http://catalogue-service:8080
+        - id: inventory-service-api
+          uri: http://inventory-service:8080
           predicates:
-            - Path=/doc/catalogue/**
+            - Path=/api/inventory/v1/**
+        - id: inventory-service
+          uri: http://inventory-service:8080
+          predicates:
+            - Path=/inventory/**
           filters:
-            - RewritePath=/doc/catalogue, /swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
-            - RewritePath=/doc/catalogue(?<segment>.*), /swagger-ui/$\{segment}
-        - id: orders-service
+            - RewritePath=/catalogue/(?<path>.*), /$\{path}
+        - id: orders-service-api
           uri: http://orders-service:8080
           predicates:
             - Path=/api/orders/v1/**
+        - id: orders-service
+          uri: http://orders-service:8080
+          predicates:
+            - Path=/orders/**
+          filters:
+            - RewritePath=/orders/(?<path>.*), /$\{path}
+        - id: reservations-service-api
+          uri: http://reservations-service:8080
+          predicates:
+            - Path=/api/reservations/v1/**
+        - id: reservations-service
+          uri: http://reservations-service:8080
+          predicates:
+            - Path=/reservations/**
+          filters:
+            - RewritePath=/orders/(?<path>.*), /$\{path}
         - id: openapi
           uri: http://localhost:8080
           predicates:
