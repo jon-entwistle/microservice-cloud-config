@@ -3,4 +3,5 @@ logging:
     root: INFO
     com.javaloom: DEBUG
     org.apache.kafka: INFO
-    org.springframework: DEBUG
+    org.springframework.web: DEBUG
+    io.swagger: DEBUG
