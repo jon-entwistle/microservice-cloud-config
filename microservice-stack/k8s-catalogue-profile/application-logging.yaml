@@ -1,0 +1,8 @@
+logging:
+  level:
+    root: INFO
+    com.javaloom: DEBUG
+    org.apache.kafka: INFO
+    org.springframework.web: DEBUG
+    io.swagger: DEBUG
+    org.springdoc: DEBUG
