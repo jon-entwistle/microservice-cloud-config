@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://moneta.dev.javaloom.com:3306/catalogue_domain
+    username: catalogue_user
+    password: mspass
+

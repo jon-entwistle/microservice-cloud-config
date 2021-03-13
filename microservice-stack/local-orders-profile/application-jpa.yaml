@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://moneta.dev.javaloom.com:3306/orders_domain
+    username: order_user
+    password: mspass
+
