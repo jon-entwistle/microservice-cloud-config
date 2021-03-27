@@ -1,5 +1,5 @@
 springdoc:
-  server-url: https://moneta.dev.javaloom.com
+  server-url: https://localhost:${server.port}
   version: '@springdoc.version@'
   swagger-ui:
     url: https://localhost:${server.port}
