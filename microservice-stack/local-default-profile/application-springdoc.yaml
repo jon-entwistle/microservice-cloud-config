@@ -2,4 +2,4 @@ springdoc:
   server-url: http://localhost:${server.port}
   version: '@springdoc.version@'
   swagger-ui:
-    url: http://localhost:${server.port}
+    url: /v3/api-docs
