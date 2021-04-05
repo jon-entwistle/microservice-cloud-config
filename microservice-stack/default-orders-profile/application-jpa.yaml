@@ -3,6 +3,7 @@ spring:
     url: jdbc:mysql://moneta.dev.javaloom.com:3306/orders_domain?charSet=LATIN1
     username: order_user
     password: mspass
+    driver-class-name: org.mariadb.jdbc.Driver
 
   jpa:
     database-platform: hibernate.dialect.MariaDBDialect
