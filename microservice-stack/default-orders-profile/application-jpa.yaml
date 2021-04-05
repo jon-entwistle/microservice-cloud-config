@@ -1,7 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://moneta.dev.javaloom.com:3306/orders_domain
+    url: jdbc:mysql://moneta.dev.javaloom.com:3306/orders_domain?charSet=LATIN1
     username: order_user
     password: mspass
 
-
+  jpa:
+    database-platform: hibernate.dialect.MariaDBDialect
+    show-sql: true
